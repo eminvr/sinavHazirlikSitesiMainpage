@@ -1,0 +1,195 @@
+.ayırac{
+    height: 3rem;
+    width: 0.2rem;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+    
+
+
+.boldText{
+    font-weight: 500;
+}
+
+.siteKırmızı{
+    background-color: #BE0000;
+}
+
+.ortaYazi{
+    text-shadow:2px 5px 7px rgba(0, 0, 0, 0.9);
+}
+
+.ortaButon{
+    border-radius: 25px 25px 0px 0px;
+}
+
+.h-85{
+height: 85%;
+}
+
+.kirmiziCizgi{
+    background-color: #BE0000;
+    height: 20px;
+    width: 100%;
+}
+
+.altsayfaBG{
+    background-color: #232020;
+}
+
+.sınavKutularDiv1{
+    background-color: #443C3C;
+    border-radius: 0px 40px 0px 40px;
+    border-style: solid;
+    border-color: red;
+    border-width: 3px;
+}
+
+.sınavKutularDiv2{
+    background-color: #443C3C;
+    border-radius: 40px 0px 40px 0px;
+    border-style: solid;
+    border-color: red;
+    border-width: 3px;
+}
+
+.sınavKutularDiv3{
+    background-color: #443C3C;
+    border-radius: 0px 40px 0px 40px;
+    border-style: solid;
+    border-color: red;
+    border-width: 3px;
+}
+
+.sınavKutularDiv4{
+    background-color: #443C3C;
+    border-radius: 40px 0px 40px 0px;
+    border-style: solid;
+    border-color: red;
+    border-width: 3px;
+}
+/* --------------------------------------------------------------------------------------------------*/
+ /* Large devices (desktops, less than 1200px)*/
+ @media (max-width: 1199.98px) {
+    .sınavKutularDiv1{
+        background-color: #443C3C;
+        border-radius: 2px 2px 40px 2px;
+        border-style: solid;
+        border-color: red;
+        border-width: 3px;
+    }
+    
+    .sınavKutularDiv2{
+        background-color: #443C3C;
+        border-radius: 2px 2px 2px 40px;
+        border-style: solid;
+        border-color: red;
+        border-width: 3px;
+    }
+    
+    .sınavKutularDiv3{
+        background-color: #443C3C;
+        border-radius: 2px 40px 2px 2px;
+        border-style: solid;
+        border-color: red;
+        border-width: 3px;
+    }
+    
+    .sınavKutularDiv4{
+        background-color: #443C3C;
+        border-radius: 40px 2px 2px 2px;
+        border-style: solid;
+        border-color: red;
+        border-width: 3px;
+    }
+ }
+
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width:991.98px){
+    .nav-item:hover:not(.butonlar){
+        background-color: rgba(14, 13, 13, 0.281);
+        padding-left: 30px;
+    }
+
+    .nav-item{
+        transition: all 0.5s ease;
+    }
+    .navbar-brand {
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin: 0px auto;
+        font-size: 1.25rem;
+        text-decoration: none;
+        white-space: nowrap;
+        letter-spacing: 3px;              
+}
+
+.sınavKutularDiv1{
+    background-color: #443C3C;
+    border-radius: 2px 2px 40px 2px;
+    border-style: solid;
+    border-color: red;
+    border-width: 3px;
+}
+
+.sınavKutularDiv2{
+    background-color: #443C3C;
+    border-radius: 2px 2px 2px 40px;
+    border-style: solid;
+    border-color: red;
+    border-width: 3px;
+}
+
+.sınavKutularDiv3{
+    background-color: #443C3C;
+    border-radius: 2px 40px 2px 2px;
+    border-style: solid;
+    border-color: red;
+    border-width: 3px;
+}
+
+.sınavKutularDiv4{
+    background-color: #443C3C;
+    border-radius: 40px 2px 2px 2px;
+    border-style: solid;
+    border-color: red;
+    border-width: 3px;
+}
+}
+
+
+
+ /* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .sınavKutularDiv1{
+        background-color: #443C3C;
+        border-radius: 0px 0px 0px 0px;
+        border-style: solid;
+        border-color: red;
+        border-width: 3px;
+    }
+    
+    .sınavKutularDiv2{
+        background-color: #443C3C;
+        border-radius: 0px 0px 0px 0px;
+        border-style: solid;
+        border-color: red;
+        border-width: 3px;
+    }
+    
+    .sınavKutularDiv3{
+        background-color: #443C3C;
+        border-radius: 0px 0px 0px 0px;
+        border-style: solid;
+        border-color: red;
+        border-width: 3px;
+    }
+    
+    .sınavKutularDiv4{
+        background-color: #443C3C;
+        border-radius: 0px 0px 0px 0px;
+        border-style: solid;
+        border-color: red;
+        border-width: 3px;
+    }
+ }
